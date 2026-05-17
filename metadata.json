@@ -1,0 +1,8 @@
+{
+  "name": "Literary First Aid Kit",
+  "description": "A minimalist, aesthetic book recommendation engine inspired by Yiyun Li's literary spirit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", serif;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-paper: #EDF2F7;
+  --color-ink: #1A202C;
+  --color-accent: #2B6CB0;
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-ink font-serif antialiased;
+  }
+}
